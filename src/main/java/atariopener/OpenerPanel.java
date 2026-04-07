@@ -110,26 +110,27 @@ public class OpenerPanel extends JPanel implements Runnable {
 		int lBlockHeight = 25;
 		
 		// line 1
-		g2.setColor(colors.get(letterColorIndex));
-		g2.fillRect(x + 20, y, 60, lBlockHeight);
+		g2.setColor(Color.WHITE);
+		//g2.setColor(colors.get(letterColorIndex));
+		g2.fillRect(x + 40, y, 20, lBlockHeight);
 		g2.fillRect(x + 120, y, 100, lBlockHeight);
-		g2.fillRect(x + 260, y, 60, lBlockHeight);
+		g2.fillRect(x + 280, y, 20, lBlockHeight);
 		g2.fillRect(x + 360, y, 80, lBlockHeight);
 		g2.fillRect(x + 480, y, 20, lBlockHeight);
 		// line 2
 		y += lBlockHeight;
-		g2.setColor(colors.get(getColorIndex(letterColorIndex + 1)));
-		g2.fillRect(x, y, 20, lBlockHeight);
-		g2.fillRect(x + 80, y, 20, lBlockHeight);
+		//g2.setColor(colors.get(getColorIndex(letterColorIndex + 1)));
+		g2.fillRect(x + 20, y, 20, lBlockHeight);
+		g2.fillRect(x + 60, y, 20, lBlockHeight);
 		g2.fillRect(x + 160, y, 20, lBlockHeight);
-		g2.fillRect(x + 240, y, 20, lBlockHeight);
-		g2.fillRect(x + 320, y, 20, lBlockHeight);
+		g2.fillRect(x + 260, y, 20, lBlockHeight);
+		g2.fillRect(x + 300, y, 20, lBlockHeight);
 		g2.fillRect(x + 360, y, 20, lBlockHeight);
 		g2.fillRect(x + 440, y, 20, lBlockHeight);
 		g2.fillRect(x + 480, y, 20, lBlockHeight);
 		// line 3
 		y += lBlockHeight;
-		g2.setColor(colors.get(getColorIndex(letterColorIndex + 2)));
+		//g2.setColor(colors.get(getColorIndex(letterColorIndex + 2)));
 		g2.fillRect(x, y, 20, lBlockHeight);
 		g2.fillRect(x + 80, y, 20, lBlockHeight);
 		g2.fillRect(x + 160, y, 20, lBlockHeight);
@@ -140,7 +141,7 @@ public class OpenerPanel extends JPanel implements Runnable {
 		g2.fillRect(x + 480, y, 20, lBlockHeight);
 		// line 4
 		y += lBlockHeight;
-		g2.setColor(colors.get(getColorIndex(letterColorIndex + 3)));
+		//g2.setColor(colors.get(getColorIndex(letterColorIndex + 3)));
 		g2.fillRect(x, y, 20, lBlockHeight);
 		g2.fillRect(x + 80, y, 20, lBlockHeight);
 		g2.fillRect(x + 160, y, 20, lBlockHeight);
@@ -149,7 +150,7 @@ public class OpenerPanel extends JPanel implements Runnable {
 		g2.fillRect(x + 360, y, 80, lBlockHeight);
 		g2.fillRect(x + 480, y, 20, lBlockHeight);
 		// line 5
-		g2.setColor(colors.get(getColorIndex(letterColorIndex + 4)));
+		//g2.setColor(colors.get(getColorIndex(letterColorIndex + 4)));
 		y += lBlockHeight;
 		g2.fillRect(x, y, 100, lBlockHeight);
 		g2.fillRect(x + 160, y, 20, lBlockHeight);
@@ -158,7 +159,7 @@ public class OpenerPanel extends JPanel implements Runnable {
 		g2.fillRect(x + 440, y, 20, lBlockHeight);
 		g2.fillRect(x + 480, y, 20, lBlockHeight);
 		// line 6
-		g2.setColor(colors.get(getColorIndex(letterColorIndex + 5)));
+		//g2.setColor(colors.get(getColorIndex(letterColorIndex + 5)));
 		y += lBlockHeight;
 		g2.fillRect(x, y, 20, lBlockHeight);
 		g2.fillRect(x + 80, y, 20, lBlockHeight);
