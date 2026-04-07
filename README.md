@@ -1,7 +1,7 @@
 # Atari Opener
 A simple rebuild of the Atari opening screen
 
-<img src="atari_opener.png" width="200" align=right />
+<img src="atari_opener2.png" width="200" align=right />
 
 ## To build:
 
